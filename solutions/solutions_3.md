@@ -1,0 +1,12 @@
+Counter V2
+
+Contract Address
+0x29ab18618b950fad06c4933912610dca66d6749488540f617340044b276d6b9
+
+CA Explorer
+https://sepolia.starkscan.co/contract/0x29ab18618b950fad06c4933912610dca66d6749488540f617340044b276d6b9
+
+Transaction Hash
+https://sepolia.starkscan.co/tx/0x249b7abede82479926fd6f2d0f1753e896edeec28824aba158d2c8b80a6ed8c
+
+Counter V3
