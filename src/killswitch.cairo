@@ -1,6 +1,7 @@
 #[starknet::interface]
 pub trait IKillSwitch<T> {
     fn is_active(self: @T) -> bool;
+    fn set_switch(ref self: T, is_on: bool);
 }
 
 #[starknet::contract]
@@ -19,6 +20,10 @@ mod KillSwitch {
     impl KillSwitchImpl of IKillSwitch<ContractState> {
         fn is_active(self: ContractState){
             self.is_active.read()
+        }
+
+        fn set_switch(ref self: ContractState, is_on: bool){
+            self.is_active.write(is_on)
         }
     }
 
